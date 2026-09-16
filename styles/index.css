@@ -6,3 +6,20 @@ body {
   gap: 40px;
   padding: 40px;
 }
+
+.image-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Sätter en bra storlek på bilderna */
+.image-card svg,
+.image-card img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 15px auto 0 auto;
+}
